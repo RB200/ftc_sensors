@@ -1,5 +1,5 @@
 # Use
-Upon building the code, an OpMode will appear, which will run SensorTest.java. You will have to configure the robot's configuration on the driver station--- when going to the config and adding a new device on an I2C bus, make sure the "Laser Range Sensor (____)" options show up. If these don't show up, something is wrong with the LaserRangeSensor*.java files. Make sure that line 12 (and any subsequent objects declared like this) has the correct device name passed as an argument. 
+Upon building the code, an OpMode will appear, which will run SensorTest.java. You will have to configure the robot's configuration on the driver station--- when going to the config and adding a new device on an I2C bus, make sure the "Laser Range Sensor (____)" options show up. If these don't show up, something is wrong with the LaserRangeSensor*.java files. Make sure that the object on line 12 and any subsequent objects declared like this have the correct device name passed as an argument. 
 
 # Notes
 SensorTest.java assumes the robot device config uses the LaserRangeSensor device, but only implements one sensor "dist_sensor".
