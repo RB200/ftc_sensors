@@ -3,7 +3,7 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-//@TeleOp(name= "Distance Sensor Test")
+@TeleOp(name= "Distance Sensor Test")
 public class SensorTest extends LinearOpMode {
     private LaserRangeSensor rangeSensor;
 
